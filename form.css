@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(135deg ,#3a629a ,rgba(70, 70, 70, 0.645))
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.forms{
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 15px;
+}
+.forms .title{
+    font-size: 25px;
+    font-weight: 500 ;
+    border-bottom:2.5px solid blue ;
+}
+div{
+    padding: 10px 0;
+}
+.forms form .user-deta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.user-deta .input-box{
+    margin:10px 0;
+    width: 300px;
+}
+.user-deta .input-box .deta{
+    font-weight: 700;    
+    display: block;
+    margin: 10px 0;
+}
+.input-box input{
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 16px;
+    border-bottom: solid blue;
+    transition: all .4s ease-in-out;
+}
+.input-box input:focus{
+    width: 100.5%;
+    border-bottom: solid rgb(32, 228, 32);
+    box-shadow:rgb(190, 255, 190)  1px 3px 10px;
+}
+.gender-title{
+    font-size: 20px;
+    font-weight: 700px;
+}
+.gender{
+    border-bottom: solid blue 2px;
+    padding: 5px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.gender-deta{
+    margin: 20px 0;
+}
+.gender.gender:hover{
+    border-bottom: solid rgb(32, 228, 32) 2px;
+}
+.button{
+    display: flex;
+}
+.button .register {
+    border-radius:10px ;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin:  0 7px;
+    outline: none;
+    color: #fff;
+    box-shadow:rgb(0, 173, 0) 1px 2px 11px;
+    background: blue;
+    transition: all 1s;
+}
+.button .register:hover{
+    background: green;
+}
+.button .reset{
+    border-radius:10px ;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin:  0 7px;
+    outline: nobe;
+    color: #fff;
+    box-shadow:red 1px 2px 11px;
+    background-color: blue;
+    transition: all 1s;
+}
+.reset:hover{
+    background: red;
+
+}
+.register a{
+    text-decoration: none;
+    color: white;
+}
+
+
